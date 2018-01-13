@@ -1,0 +1,19 @@
+{
+  "identifier": "ConfigurationSkill",
+  "name": "Configuration",
+  "skillMetadata": {
+      "sections": [
+          {
+              "name": "Update frequency",
+              "fields": [
+                  {
+                      "name": "max_delay",
+                      "type": "int",
+                      "label": "Maximum update delay (seconds)",
+                      "value": "60"
+                  }
+              ]
+          }
+      ]
+  }
+}
